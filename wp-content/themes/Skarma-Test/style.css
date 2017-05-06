@@ -1,0 +1,69 @@
+/*
+Theme Name: Skarma-Test
+Description: Skarma-Test 
+Author: Pawan
+Version: 1.0
+Tags: responsive, bootstrap, Skarma-Test
+*/
+
+@import url('bootstrap/css/bootstrap.css'); 
+@import url('bootstrap/css/bootstrap-responsive.css'); 
+
+
+body {
+	padding-top: 50px;
+	color: #959595;
+	}
+	
+h1, h2, h3, h4, h5, h6 {
+	color: black;
+	}
+	
+.feature {
+	background-color: yellowgreen;
+	color: greenyellow;
+	}
+	
+.article-intro {
+    margin-bottom: 25px;
+}
+
+.footer-blurb {
+    padding: 30px 0;
+    background-color: goldenrod;
+    color: black;
+}
+    
+.footer-blurb-item {
+    padding: 30px;
+    }
+ 
+.small-print {
+	background-color: #fff;
+	padding: 30px 0;
+}
+
+.feature,
+.page-intro,
+.article-intro,
+.footer-blurb,
+.small-print {
+	text-align: center;
+	}
+
+.Rectangle-7-copy-5 {
+  width: 378px;
+  height: 222px;
+  background-color: #959595;
+}
+
+.nav-1 {
+  width: 2001px;
+  height: 42.3px;
+  background-color: #ffffff;
+}
+.nav-2 {
+  width: 2000px;
+  height: 75px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.02) 66%, rgba(255, 255, 255, 0.05));
+}
