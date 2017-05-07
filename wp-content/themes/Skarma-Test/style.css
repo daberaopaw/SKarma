@@ -1,13 +1,12 @@
 /*
-Theme Name: Skarma-Test
-Description: Skarma-Test 
-Author: Pawan
-Version: 1.0
-Tags: responsive, bootstrap, Skarma-Test
+Theme Name: skarma-test
+Author: pawan
+Author URI: https://google.com/
+Description: skarma-test theam to test.
+Version: 0.0.1
+Text Domain: skarma-test
+Tags: skarma, test, skarma-test
 */
-
-@import url('bootstrap/css/bootstrap.css'); 
-@import url('bootstrap/css/bootstrap-responsive.css'); 
 
 
 body {
@@ -24,6 +23,17 @@ h1, h2, h3, h4, h5, h6 {
 	color: greenyellow;
 	}
 	
+.Rectangle-1-copy-4 {
+  width: 2000px;
+  height: 95px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.02) 66%, rgba(255, 255, 255, 0.05));
+}
+.Rectangle-7-copy-4 {
+  width: 378px;
+  height: 222px;
+  background-color: #959595;
+}
+
 .article-intro {
     margin-bottom: 25px;
 }
@@ -51,12 +61,6 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 	}
 
-.Rectangle-7-copy-5 {
-  width: 378px;
-  height: 222px;
-  background-color: #959595;
-}
-
 .nav-1 {
   width: 2001px;
   height: 42.3px;
@@ -65,5 +69,105 @@ h1, h2, h3, h4, h5, h6 {
 .nav-2 {
   width: 2000px;
   height: 75px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.02) 66%, rgba(255, 255, 255, 0.05));
+}
+.Rectangle-2 {
+  width: 2000px;
+  height: 180px;
+  background-color: #060e57;
+}
+.latest-news {
+  width: 137px;
+  height: 21px;
+  font-family: SquadaOne;
+  font-size: 30px;
+  line-height: 1;
+  text-align: left;
+  color: #060e57;
+}
+.Search-news-for {
+  width: 127px;
+  height: 16px;
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 300;
+  font-stretch: condensed;
+  line-height: 1.43;
+  text-align: left;
+  color: #060e59;
+}
+.Rectangle-1 {
+  width: 215px;
+  height: 45px;
+  background-color: #c6c7d3;
+  border: solid 1px #c6c7d3;
+}
+.Rectangle-1-copy {
+  width: 140px;
+  height: 45px;
+  border-radius: 2px;
+  background-color: #c6c7d3;
+  border: solid 1px #c6c7d3;
+}
+.Rectangle-1-copy-5 {
+  width: 81px;
+  height: 45px;
+  border-radius: 2px;
+  background-color: #ee7306;
+}
+.Rectangle-7-copy-4 {
+  width: 378px;
+  height: 222px;
+  background-color: #959595;
+}
+.Rectangle-7-copy-5 {
+  width: 378px;
+  height: 222px;
+  background-color: #959595;
+}
+.Rectangle-7-copy-6 {
+  width: 378px;
+  height: 222px;
+  background-color: #959595;
+}
+.Rectangle-7-copy-4 {
+  width: 378px;
+  height: 222px;
+  background-color: #959595;
+}
+.Rectangle-7-copy-5 {
+  width: 378px;
+  height: 222px;
+  background-color: #959595;
+}
+.Rectangle-7-copy-6 {
+  width: 378px;
+  height: 222px;
+  background-color: #959595;
+}
+.Rectangle-1-copy-4 {
+  width: 2000px;
+  height: 95px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.02) 66%, rgba(255, 255, 255, 0.05));
+}
+.facebook {
+  width: 35px;
+  height: 35px;
+}
+.instagram {
+  width: 35px;
+  height: 35px;
+}
+.twitter {
+  width: 35px;
+  height: 35px;
+}
+.youtube {
+  width: 35px;
+  height: 35px;
+}
+.Rectangle-1-copy-3 {
+  width: 1999px;
+  height: 53px;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.02) 66%, rgba(255, 255, 255, 0.05));
 }

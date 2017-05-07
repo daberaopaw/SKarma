@@ -1,32 +1,27 @@
-<?php     
-
-/*  header templet  */
-?>
-
-
 <!DOCTYPE html>
+<!-- Template by Quackit.com -->
 <html lang="en">
-    <head>
-    <link href=<?php bloginfo('templet_url') ?>"/style.css" type="text/css" rel="stylesheet">
-    
-    <?php wp_head(); ?>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <body>
-<header class="header">
-  
-    <nav class="nav-2">
-        <?php 
-        wp_nav_menu( $arg = array(
-        
-        'menu_class' =>  'main-navigation',
-            'theam_location' => 'primary'  
-        ));
-        
-        
-        ?>
-    
+<?php wp_head();  ?>
+ </head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <?php
+                wp_nav_menu( $arg = array(  
+                    'menu_class' => 'nav-1',
+                    'theme_location' => 'primary'
+                    
+                ));
+            ?>
+            
+        </div>
+        <!-- /.container -->
     </nav>
-    
-</header>
-  
