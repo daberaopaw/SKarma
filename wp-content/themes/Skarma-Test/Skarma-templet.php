@@ -11,7 +11,7 @@
 <div class="row">
             <article class="col-md-4 article-intro">
                 <a href="#">
-                    <img class="Rectangle-7-copy-5" src="<php? bloginfo('templet_url') ?>" alt="">
+                    <img class="Rectangle-7-copy-5" src="<php? bloginfo('template_url') ?>" alt="">
                 </a>
                 <h3>
                     <a href="#">Efficiently Unleash</a>
@@ -20,7 +20,7 @@
             </article>
             <article class="col-md-4 article-intro">
                 <a href="#">
-                    <img class="Rectangle-7-copy-5" src="<php? bloginfo('templet_url') ?>" alt="">
+                    <img class="Rectangle-7-copy-5" src="<php? bloginfo('template_url') ?>" alt="">
                 </a>
                 <h3>
                     <a href="#">Completely Synergize</a>
@@ -30,7 +30,7 @@
 
             <article class="col-md-4 article-intro">
                 <a href="#">
-                    <img class="Rectangle-7-copy-5" src="<php? bloginfo('templet_url') ?>" alt="">
+                    <img class="Rectangle-7-copy-5" src="<php? bloginfo('template_url') ?>" alt="">
                 </a>
                 <h3>
                     <a href="#">Dynamically Procrastinate</a>
@@ -42,7 +42,7 @@
 <div class="row">
             <article class="col-md-4 article-intro">
                 <a href="#">
-                    <img class="Rectangle-7-copy-5" src="<php? bloginfo('templet_url') ?>" alt="">
+                    <img class="Rectangle-7-copy-5" src="<php? bloginfo('template_url') ?>" alt="">
                 </a>
                 <h3>
                     <a href="#">Efficiently Unleash</a>
@@ -51,7 +51,7 @@
             </article>
             <article class="col-md-4 article-intro">
                 <a href="#">
-                    <img class="Rectangle-7-copy-5" src="<php? bloginfo('templet_url') ?>" alt="">
+                    <img class="Rectangle-7-copy-5" src="<php? bloginfo('template_url') ?>" alt="">
                 </a>
                 <h3>
                     <a href="#">Completely Synergize</a>
@@ -61,7 +61,7 @@
 
             <article class="col-md-4 article-intro">
                 <a href="#">
-                    <img class="Rectangle-7-copy-5" src="<php? bloginfo('templet_url') ?>" alt="">
+                    <img class="Rectangle-7-copy-5" src="<php? bloginfo('template_url') ?>" alt="">
                 </a>
                 <h3>
                     <a href="#">Dynamically Procrastinate</a>

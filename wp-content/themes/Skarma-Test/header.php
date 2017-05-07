@@ -10,18 +10,13 @@
  </head>
 
 <body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
+    <header class="navbar header">
+        <nav class="navbar nav-2">
             <?php
                 wp_nav_menu( $arg = array(  
                     'menu_class' => 'nav-1',
                     'theme_location' => 'primary'
-                    
                 ));
             ?>
-            
-        </div>
-        <!-- /.container -->
-    </nav>
+        </nav>
+    </header>
