@@ -10,13 +10,14 @@
  </head>
 
 <body>
-    <header class="navbar header">
-        <nav class="navbar nav-2">
+
+    <header class="container">
+        <nav class="navbar collapse">
             <?php
                 wp_nav_menu( $arg = array(  
-                    'menu_class' => 'nav-1',
+                    'menu_class' => 'navbar-default',
                     'theme_location' => 'primary'
                 ));
             ?>
         </nav>
-    </header>
+</header>

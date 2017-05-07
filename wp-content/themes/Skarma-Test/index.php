@@ -2,12 +2,12 @@
 <div class="container">
 
         <div class="row">
-            <div class="col-md-4 article-intro">
+            <div>
                 
                 <h3>
                     <?php echo get_title() ?>
                 </h3>
-                <main class="artical-intro">
+                <main>
                         <?php  
                             if (have_post()) :
                                 while (have_post()) :
