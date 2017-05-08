@@ -12,23 +12,24 @@
 
 <body>
 
-    <header class="top-navigation-bg-color text-center">
+    <header>
+        <div class="rectangle-2" style="text-align: center;">
         
-        <div class="container">
+        <div class="top-menu" style="color:#000">
         <?php wp_nav_menu( $arg = array(
     
                                 
-                                'menu_class' => 'top-menu',
+                                'menu_class' => 'navbar navbar-nav',
                                 'theme_location' => 'top-menu',
                                 'container'         => 'div',
-                                'container_class'   => 'collapse navbar-collapse',
+                                
                                 'container_id'      => 'bs-example-navbar-collapse-1',
-                                'menu_class'        => 'nav navbar-nav',
+                                'menu_class'        => 'top-menu',
                                 'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
                                 'walker'            => new WP_Bootstrap_Navwalker()) ); ?>
         </div>
-        
-        <div>
+        </div>
+        <div class="rectangle-2">
         <nav class="main-navigation navigation-bg-color">
                     
         
@@ -38,9 +39,9 @@
                                 'menu_class' => 'main-navigation',
                                 'theme_location' => 'primary',
                                 'container'         => 'div',
-                                'container_class'   => 'collapse navbar-collapse',
+                                
                                 'container_id'      => 'bs-example-navbar-collapse-1',
-                                'menu_class'        => 'nav navbar-nav',
+                                'menu_class'        => 'main-navigation',
                                 'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
                                 'walker'            => new WP_Bootstrap_Navwalker()) ); ?>
             

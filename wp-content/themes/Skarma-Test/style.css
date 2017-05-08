@@ -11,27 +11,34 @@ Tags: skarma, test, skarma-test
 
 body {
 	padding-top: 0px;
-	color: #959595;
+	color: #000000;
 	}
 	
 h1, h2, h3, h4, h5, h6 {
 	color: black;
 	}
 	
-.feature {
-	background-color: yellowgreen;
-	color: greenyellow;
+.footer-menu-bg {
+	background-color: transparent;
+
 	}
 	
 .Rectangle-1-copy-3 {
-  width: 1999px;
-  height: 53px;
-  background-color: #15217E;
+  width: 100%;
+    border-top: 5px;
+    border-top-color: #FF7612;
+    border-top-style: solid;
+    padding-top: 2em;
+  text-align: center;
+  height: 6em;
+  background-color: #1B2781;
 }
 .Rectangle-1-copy-4 {
-  width: 2000px;
-  height: 95px;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.02) 66%, rgba(255, 255, 255, 0.05));
+  width: 100%;
+  height: 55px;
+    padding-left: 23em;
+    text-align: center;
+  background-color: #15217E;
 }
 .Rectangle-7-copy-4 {
   width: 378px;
@@ -111,51 +118,61 @@ margin: 0;
 }
 
 .Rectangle-2 {
-  width: 100%;
-  height: 50px;
-  background-color: #060e57;
+  
+  height: 100%;
+  background-color: #fff;
 }
+
+
+
 .news {
-  width: 119px;
-  height: 40px;
   font-family: SquadaOne;
   font-size: 40px;
   line-height: 1;
   letter-spacing: 1.2px;
-  text-align: left;
-  color: #ffffff;
+  text-align:center;
+  color: #ffffff !important;
 }
+
+@media screen and ( max-width: 700px ) {
+.news {
+  font-family: SquadaOne;
+  font-size: 15px;
+  line-height: 1;
+  letter-spacing: 1.2px;
+  text-align:center;
+  color: #ffffff !importanat;
+}}
+/* HORIZONTAL LINE CODE */
 .Shape-9-copy-2 {
-  width: 1170px;
+  width: 2em;
   height: 1px;
   background-color: #c6c7d3;
   border: solid 1px #c6c7d3;
 }
 
-.Rectangle-1-copy-4 {
-  width: 100%;
-  height: 95px;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.02) 66%, rgba(255, 255, 255, 0.05));
+
+.group { 
+  display: table;
+  width: 10em;
+  font-size: 3em;
+}
+.item {
+  display: table-cell;
+}
+.text { 
+  white-space: nowrap;
+  width: 1%;
+  padding: 0 10px;
+}
+.line {
+  border-bottom: 1px solid #fff;
+  position: relative;
+  top: -.5em;
 }
 
-.hr-sect {
-	display: flex;
-	flex-basis: 100%;
-	align-items: center;
-	color: #ffffff;
-	margin: 2em 30em;
-}
-.hr-sect::before,
-.hr-sect::after {
-	content: "";
-	flex-grow: 1;
-	background: #ffffff;
-	height: 2px;
-	font-size: 0px;
-	line-height: 5px;
-	margin: 0px 8px;
-    width: 1em;
-}
+
+
 .latest-news {
   width: 137px;
   height: 21px;
@@ -164,7 +181,21 @@ margin: 0;
   line-height: 1;
   text-align: left;
   color: #060e57;
+    border-bottom: solid 4px #ff7612
 }
+
+@media screen and ( max-width: 700px ) {
+.latest-news {
+  width: 137px;
+  height: 21px;
+  font-family: SquadaOne;
+  font-size: 10px;
+  line-height: 1;
+  text-align: left;
+  color: #060e57;
+}
+}
+
 .Search-news-for {
   width: 127px;
   height: 16px;
@@ -176,6 +207,13 @@ margin: 0;
   text-align: left;
   color: #060e59;
 }
+hr {
+    margin-top: 4px !important;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid #eee !important;
+}
+
 .Rectangle-1 {
   width: 215px;
   height: 45px;
@@ -225,11 +263,7 @@ margin: 0;
   height: 222px;
   background-color: #959595;
 }
-.Rectangle-1-copy-4 {
-  width: 2000px;
-  height: 95px;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.02) 66%, rgba(255, 255, 255, 0.05));
-}
+.
 .facebook {
   width: 35px;
   height: 35px;
@@ -357,10 +391,20 @@ margin: 0;
 .navigation-bg-color{
     background-color: darkblue;
     border-bottom: 6PX;
+    padding-left: 24em;
     border-bottom-color: #FF7612;
     border-bottom-style: solid;
 }
-
+.navbar .dropdown-menu li {
+  width: 100%;
+  margin-left: 0 !important;
+}
+}
+.btn-primary-btn {
+    color: #fff;
+    background-color: #ff7612 !important;
+    border-color: #ff7612 !important;
+}
 /* top menu */
 
 .top-menu {
@@ -456,4 +500,10 @@ margin: 0;
     border-bottom: 2PX;
     border-bottom-color: #000;
     border-bottom-style: solid;
+}
+
+.navbar-nav>li>a {
+    padding-top: 15px !important ; 
+    padding-bottom: 15px !important ;
+    color: white !important;
 }

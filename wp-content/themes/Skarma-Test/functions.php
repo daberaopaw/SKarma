@@ -23,7 +23,19 @@ function register_skarma_menus(){
         );
 }
 
+
 add_action('init', 'register_skarma_menus');
+
+
+
+
+add_action( 'after_setup_theme', 'wpt_setup' );
+    if ( ! function_exists( 'wpt_setup' ) ):
+        function wpt_setup() { 
+            register_nav_menu( 'primary', __( 'Primary navigation', 'wptuts' ) );
+        } endif;
+
+
 
 function skarma_scripts(){
     
@@ -54,4 +66,14 @@ add_action( 'wp_enqueue_scripts', 'theme_js');
 
 // Register Custom Navigation Walker
 require_once('wp-bootstrap-navwalker.php');
+
+//enqueues our external font awesome stylesheet
+function enqueue_our_required_stylesheets(){
+	wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'); 
+}
+add_action('wp_enqueue_scripts','enqueue_our_required_stylesheets');
+
+
+
+
 ?>

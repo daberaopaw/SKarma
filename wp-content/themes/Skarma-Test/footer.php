@@ -1,10 +1,19 @@
 
     
     	<footer>
+            <div class="Rectangle-1-copy-3">
+                <i class="fa fa-facebook-square" aria-hidden="true" style="font-size: 30px; color: #FF7612; margin-right: 20px"></i>
+                
+                <i class="fa fa-instagram" aria-hidden="true" style="font-size: 30px; color: #FF7612;  margin-right: 20px"></i>
+                
+                <i class="fa fa-twitter-square" aria-hidden="true" style="font-size: 30px; color: #FF7612;  margin-right: 20px"></i>
+                <i class="fa fa-youtube-play" aria-hidden="true" style="font-size: 30px; color: #FF7612; margin-right: 20px"></i>
             
             
-            
-            <div class="navbar navbar-default Rectangle-1-copy-3">
+            </div>
+            <div class="text-center" style="color: white; ">
+            <div class="Rectangle-1-copy-4">
+            <div class="footer-menu-bg">
             <nav>
                 <?php
                         wp_nav_menu( $arg = array(  
@@ -13,7 +22,7 @@
                                 'container'         => 'div',
                                 'container_class'   => 'collapse navbar-collapse',
                                 'container_id'      => 'bs-example-navbar-collapse-1',
-                                'menu_class'        => 'nav navbar-nav',
+                                'menu_class'        => 'navbar nav navbar-nav',
                                 'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
                                 'walker'            => new WP_Bootstrap_Navwalker())
 
@@ -21,7 +30,8 @@
             ?>
                 </nav>
 </div>
-            
+                        </div>
+            </div>
 	</footer>
 	<?php wp_footer(); ?>
 </body>

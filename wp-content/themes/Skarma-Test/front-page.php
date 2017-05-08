@@ -1,41 +1,48 @@
 <?php /* Front Page Templet */
 get_header();
 ?>
-<div class="container Rectangle-2 text-center">
-    <div class="hr-sect"><span class="news">NEWS </span></div>
+<div class="container-fluid Rectangle-2" style="text-align: -webkit-center;">
+    <div class="group">
+    <div class="item line"></div>
+    <div class="item text" style="color:#fff">NEWS</div>
+    <div class="item line"></div>
+</div>
+    
 </div>
 <br>
-<div class="custome-container">
+<div class="container">
+<div class="container-fluid">
     <span class="float-left latest-news"> LATEST NEWS </span>
-    <span class="Shape-9-copy-2"></span>
+    <hr>
 </div>
 <br>
-<div class="container float-right">
-<div class="custome-container float-left">
-    <form role="search">
-        <span class="input-group">
-            <input type="text" class="form-control" placeholder="Search" name="q">
-            <span class="input-group-btn">
-                    </span>
-        </span>
-        <span class="dropdown" style="padding-left: 60em">
-    <button class="btn btn-default dropdown-toggle " type="button" id="menu1" data-toggle="dropdown">2016
-    <span class="caret"></span></button>
-    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">2015</a></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">2014</a></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">2013</a></li>
-      <li role="presentation" class="divider"></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">2012</a></li>
-    </ul>
-  </span>
-        </form>
+    <div class="row">
+        <div class="col-xs-12" style="padding-left: 50em">
+            search news for..
+    <input type="text" class="searchTerm" placeholder="Player, Match, etc..">
+<span class="dropdown">
+  <button class="btn btn-primary-btn dropdown-toggle" type="button" data-toggle="dropdown">2016
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li><a href="#">2015</a></li>
+    <li><a href="#">2014</a></li>
+    <li><a href="#">2013</a></li>
+  </ul>
+</span>
+            <span class="btn btn-primary-btn" style="background-color: #ff7612; color: #fff">GO</span>
+        </div>
+
     </div>
-    </div>
+
+    <br>
+    <hr>
+</div>
+
+<br>
 <div class="container">    
 <?php /* main body vontent having images post titles and description */ ?>
             
-    <div class="custome-container">
+    <div class="col-xs-12">
     <?php  
                 if (have_posts()) :
                     while (have_posts()) :  
@@ -44,7 +51,7 @@ get_header();
                 
                         
                             <artical>
-                                <span  class="col-md-4">
+                                <span  class="col-xs-12 col-md-4">
                                 <a href="#">
                                     <img class="Rectangle-7-copy-4 img-responsive" src="<?php bloginfo('template_url') ?>" alt="">
                                 </a>
