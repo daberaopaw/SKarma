@@ -32,97 +32,43 @@ get_header();
         </form>
     </div>
     </div>
-    
-<br>
-<br>
-<div class="custome-container">
-<div class="row">
-    <artical class="col-md-4">
-                <a href="#">
-                    <img class="Rectangle-7-copy-4 img-responsive" src="<?php bloginfo('template_url') ?>" alt="">
-                </a>
-        <?php the_time('d F Y'); ?>
-                <h3>
-                    <a href="<php? the_permalink(); ?>"><?php the_title(); ?></a>
-                </h3>
-                
-        <p><?php the_content(); ?></p>
-            </artical> 
+<div class="container">    
+<?php /* main body vontent having images post titles and description */ ?>
             
-            <artical class="col-md-4">
-                <a href="#">
-                    <img class="Rectangle-7-copy-4 img-responsive" src="<?php bloginfo('template_url') ?>" alt="">
-                </a>
-                <?php the_time('d F Y'); ?>
-                <h3>
-                    <a href="<php? the_permalink(); ?>"><?php the_title(); ?></a>
+    <div class="custome-container">
+    <?php  
+                if (have_posts()) :
+                    while (have_posts()) :  
+                        the_post();?>
                 
-                </h3>
-                <p><?php the_content(); ?></p>
-            </artical> 
-            <artical class="col-md-4">
-                <a href="#">
-                    <img class="Rectangle-7-copy-4 img-responsive" src="<?php bloginfo('template_url') ?>" alt="">
-                </a>
-                <?php the_time('d F Y'); ?>
-                <h3>
-                    <a href="<php? the_permalink(); ?>"><?php the_title(); ?></a>
                 
-                </h3>
-                <p><?php the_content(); ?></p>
-            </artical> 
-    
-    </div>
-    <br>
-    <div class="row">
-    <artical class="col-md-4">
-                <a href="#">
-                    <img class="Rectangle-7-copy-4 img-responsive" src="<?php bloginfo('template_url') ?>" alt="">
-                </a>
-        <?php the_time('d F Y'); ?>
-                <h3>
-                    <a href="<php? the_permalink(); ?>"><?php the_title(); ?></a>
+                        
+                            <artical>
+                                <span  class="col-md-4">
+                                <a href="#">
+                                    <img class="Rectangle-7-copy-4 img-responsive" src="<?php bloginfo('template_url') ?>" alt="">
+                                </a>
+                                    <?php the_time('d F Y'); ?>
+                                    <h3>
+                                        <a href="<php? the_permalink(); ?>"><?php the_title(); ?></a>
+                                    </h3>
                 
-        </h3>
-                <p><?php the_content(); ?></p>
-            </artical> 
-            
-            <artical class="col-md-4">
-                <a href="#">
-                    <img class="Rectangle-7-copy-4 img-responsive" src="<?php bloginfo('template_url') ?>" alt="">
-                </a>
-                <?php the_time('d F Y'); ?>
-                <h3>
-                    <a href="<php? the_permalink(); ?>"><?php the_title(); ?></a>
-                
-                </h3>
-                <p><?php the_content(); ?></p>
-            </artical> 
-            <artical class="col-md-4">
-                <a href="#">
-                    <img class="Rectangle-7-copy-4 img-responsive" src="<?php bloginfo('template_url') ?>" alt="">
-                </a>
-                  <?php the_time('d F Y'); ?>
-                 <h3>
-                    <a href="<php? the_permalink(); ?>"><?php the_title(); ?></a>
-                </h3>
-                <p><?php the_content(); ?></p>
-            </artical> 
-    
-    </div>
+                                    <p><?php the_content(); ?></p>
+                            </span>
+                                    <?php
+                                
+                                    endwhile;
+                                    endif; 
+                                ?>
+                                    
+                            </artical>
 
-    </div>
-<div class="container text-center Rectangle-1-copy-4">
-            <span class="fa-facebook-square" style="font-size: 60px"></span>
-                <span class="fa fa-plus"></span>
-            </div>
-            
-            <span class="fa fa-plus"></span>
+                        </div>
+                
+
+</div>
 		  
 
-
-<?php
-
+<?php 
 get_footer();
-
 ?>

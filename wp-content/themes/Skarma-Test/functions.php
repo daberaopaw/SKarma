@@ -15,8 +15,10 @@ add_action('after_setup_theme' , 'skarma_setup');
 function register_skarma_menus(){
     register_nav_menus(
         array(
-        'primary' => __('Primary Menu'), 
-            'footer' => __('Footer Menu')
+        'primary' => __('Primary Menu'),
+            'top-menu' => __('Top Menu'),
+            'footer' => __('Footer Menu'),
+            'footer_primary' => ('Footer Primary ')
         )
         );
 }
@@ -49,4 +51,7 @@ function theme_js() {
 }
 
 add_action( 'wp_enqueue_scripts', 'theme_js');
+
+// Register Custom Navigation Walker
+require_once('wp-bootstrap-navwalker.php');
 ?>
