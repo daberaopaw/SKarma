@@ -1,7 +1,7 @@
 <?php /* Front Page Templet */
 get_header();
 ?>
-<div class="container-fluid Rectangle-2" style="text-align: -webkit-center;">
+<div class="container-fluid Rectangle-3" style="text-align: -webkit-center;">
     <div class="group">
     <div class="item line"></div>
     <div class="item text" style="color:#fff">NEWS</div>
@@ -16,8 +16,8 @@ get_header();
     <hr>
 </div>
 <br>
-    <div class="row">
-        <div class="col-xs-12" style="padding-left: 50em">
+    <div>
+        <div class="col-xs-12" style="padding-left: 55em">
             search news for..
     <input type="text" class="searchTerm" placeholder="Player, Match, etc..">
 <span class="dropdown">
@@ -31,7 +31,7 @@ get_header();
 </span>
             <span class="btn btn-primary-btn" style="background-color: #ff7612; color: #fff">GO</span>
         </div>
-
+<hr>
     </div>
 
     <br>
@@ -47,20 +47,18 @@ get_header();
                 if (have_posts()) :
                     while (have_posts()) :  
                         the_post();?>
-                
-                
-                        
+                            
                             <artical>
                                 <span  class="col-xs-12 col-md-4">
                                 <a href="#">
                                     <img class="Rectangle-7-copy-4 img-responsive" src="<?php bloginfo('template_url') ?>" alt="">
                                 </a>
                                     <?php the_time('d F Y'); ?>
-                                    <h3>
+                                    <h3 style="margin-top: 1%;">
                                         <a href="<php? the_permalink(); ?>"><?php the_title(); ?></a>
                                     </h3>
                 
-                                    <p><?php the_content(); ?></p>
+                                    <p style="margin-bottom: 3%;"><?php the_content(); ?></p>
                             </span>
                                     <?php
                                 
@@ -69,10 +67,10 @@ get_header();
                                 ?>
                                     
                             </artical>
+        <br><br>
 
                         </div>
                 
-
 </div>
 		  
 

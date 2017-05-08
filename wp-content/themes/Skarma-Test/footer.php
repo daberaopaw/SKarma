@@ -11,7 +11,7 @@
             
             
             </div>
-            <div class="text-center" style="color: white; ">
+            <div style="color: white;">
             <div class="Rectangle-1-copy-4">
             <div class="footer-menu-bg">
             <nav>
